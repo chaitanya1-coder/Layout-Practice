@@ -1,0 +1,62 @@
+h1{
+	text-align: center;
+	color: black;
+	font-family: raleway;
+	border-bottom: 2px solid black;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 20px;
+	width: 30%;
+}
+
+.left{
+position:absolute;
+display: flex;
+z-index: 9999;
+left: 0;
+color: black;
+background-color: lightgrey;
+overflow: scroll;
+width: 10%;
+}
+.middle{
+	color: peachpuff;
+	width: 77%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ff8100d9;
+}
+
+.r1{
+	position:absolute;
+	top: 0;
+	right: 0;
+	float: right;
+	color: black;
+	background-color: lightblue;
+	width: 10%;
+
+}
+/*Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #827878; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#827878; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white;
+  }	
